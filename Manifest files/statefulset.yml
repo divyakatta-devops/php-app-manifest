@@ -10,7 +10,8 @@ metadata:
     selector:
       matchLabels:
         app: app-database
-        template:
+        
+    template:
           metadata:
             labels:
               app: app-database
