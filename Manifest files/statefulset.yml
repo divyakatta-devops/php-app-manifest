@@ -19,6 +19,7 @@ metadata:
           containers:
             -name: dbcont
             image: divyakatta1604/phpapp:dbimage
+            
             ports:
               -containerPort: 3306
 
