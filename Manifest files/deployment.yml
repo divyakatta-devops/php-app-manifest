@@ -8,15 +8,16 @@ metadata:
     selector:
       matchLabels:
         app: nginx
-        template:
+        
+    template:
           metadata:
             labels:
               app: nginx
-        spec:
+         spec:
           containers:
             -name: cont1
-            image: divyakatta1604/phpapp:appimage
-            ports:
+             image: divyakatta1604/phpapp:appimage
+             ports:
               -containerPort: 8080
 
             #configmap Integration  
